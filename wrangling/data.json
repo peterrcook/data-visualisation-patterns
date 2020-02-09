@@ -1,0 +1,1186 @@
+[
+  {
+    "key": "Independent",
+    "values": [
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "30 Minutes or Less",
+            "value": 40.55
+          },
+          {
+            "key": "50/50",
+            "value": 39.19
+          },
+          {
+            "key": "Bad Teacher",
+            "value": 216.2
+          },
+          {
+            "key": "Beginners",
+            "value": 14.31
+          },
+          {
+            "key": "The Big Year",
+            "value": 7.45
+          }
+        ]
+      },
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "A Dangerous Method",
+            "value": 27.46
+          },
+          {
+            "key": "Dolphin Tale",
+            "value": 95.41
+          },
+          {
+            "key": "Shame",
+            "value": 16.874
+          },
+          {
+            "key": "Take Shelter",
+            "value": 3.13
+          },
+          {
+            "key": "The Conspirator",
+            "value": 15.48
+          },
+          {
+            "key": "The Rum Diary",
+            "value": 23.95
+          },
+          {
+            "key": "The Tree Of Life",
+            "value": 54.3
+          }
+        ]
+      },
+      {
+        "key": "Fantasy",
+        "values": [
+          {
+            "key": "Another Earth",
+            "value": 1.77
+          }
+        ]
+      },
+      {
+        "key": "Thriller",
+        "values": [
+          {
+            "key": "Drive",
+            "value": 76.17
+          },
+          {
+            "key": "Margin Call",
+            "value": 19.5
+          },
+          {
+            "key": "The Adjustment Bureau",
+            "value": 127.87
+          },
+          {
+            "key": "Unknown",
+            "value": 130.79
+          }
+        ]
+      },
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Drive Angry",
+            "value": 28.93
+          },
+          {
+            "key": "Killer Elite",
+            "value": 56.38
+          },
+          {
+            "key": "The Mechanic",
+            "value": 51.07
+          },
+          {
+            "key": "The Three Musketeers",
+            "value": 132.27
+          }
+        ]
+      },
+      {
+        "key": "Horror",
+        "values": [
+          {
+            "key": "Dylan Dog: Dead of Night",
+            "value": 4.63
+          },
+          {
+            "key": "Paranormal Activity 3",
+            "value": 207.04
+          },
+          {
+            "key": "Red State",
+            "value": 1.1
+          },
+          {
+            "key": "The Roommate",
+            "value": 40.49
+          }
+        ]
+      },
+      {
+        "key": "Romance",
+        "values": [
+          {
+            "key": "One Day",
+            "value": 59.39
+          },
+          {
+            "key": "Something Borrowed",
+            "value": 60.18
+          },
+          {
+            "key": "Twilight: Breaking Dawn",
+            "value": 712.17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Lionsgate",
+    "values": [
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "A Very Harold and Kumar Christmas",
+            "value": 35.39
+          }
+        ]
+      },
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Conan the Barbarian",
+            "value": 48.8
+          },
+          {
+            "key": "Machine Gun Preacher",
+            "value": 1.1
+          },
+          {
+            "key": "Warrior",
+            "value": 23.06
+          }
+        ]
+      },
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "The Lincoln Lawyer",
+            "value": 75.01
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Vertigo Entertainment",
+    "values": [
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Abduction",
+            "value": 82.09
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Relativity Media",
+    "values": [
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "Anonymous",
+            "value": 15.39
+          }
+        ]
+      },
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Battle: Los Angeles",
+            "value": 211.82
+          },
+          {
+            "key": "Immortals",
+            "value": 226.9
+          },
+          {
+            "key": "Sanctum",
+            "value": 108.61
+          }
+        ]
+      },
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "Bridesmaids",
+            "value": 288.38
+          },
+          {
+            "key": "Johnny English Reborn",
+            "value": 160.08
+          },
+          {
+            "key": "The Change Up",
+            "value": 75.45
+          }
+        ]
+      },
+      {
+        "key": "Animation",
+        "values": [
+          {
+            "key": "Hop",
+            "value": 183.95
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Weinstein Company",
+    "values": [
+      {
+        "key": "Horror",
+        "values": [
+          {
+            "key": "Apollo 18",
+            "value": 25.56
+          },
+          {
+            "key": "Scream 4",
+            "value": 97.14
+          }
+        ]
+      },
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Spy Kids: All The Time in the World",
+            "value": 85.56
+          }
+        ]
+      },
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "The Artist",
+            "value": 133.432
+          },
+          {
+            "key": "The Company Men",
+            "value": 4.88
+          },
+          {
+            "key": "The Iron Lady",
+            "value": 114.955
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Warner Bros",
+    "values": [
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "Arthur",
+            "value": 45.74
+          },
+          {
+            "key": "Hall Pass",
+            "value": 83.16
+          },
+          {
+            "key": "Horrible Bosses",
+            "value": 209.64
+          }
+        ]
+      },
+      {
+        "key": "Thriller",
+        "values": [
+          {
+            "key": "Contagion",
+            "value": 135.46
+          }
+        ]
+      },
+      {
+        "key": "Romance",
+        "values": [
+          {
+            "key": "Crazy, Stupid, Love",
+            "value": 142.85
+          },
+          {
+            "key": "Friends With Benefits",
+            "value": 149.54
+          }
+        ]
+      },
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Green Lantern",
+            "value": 219.85
+          },
+          {
+            "key": "Sherlock Holmes 2",
+            "value": 545.45
+          }
+        ]
+      },
+      {
+        "key": "Fantasy",
+        "values": [
+          {
+            "key": "Harry Potter and the Deathly Hallows Part 2",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "J.Edgar",
+            "value": 84.61
+          }
+        ]
+      },
+      {
+        "key": "Horror",
+        "values": [
+          {
+            "key": "Red Riding Hood",
+            "value": 89.16
+          },
+          {
+            "key": "The Rite",
+            "value": 96.05
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Aardman Animations",
+    "values": [
+      {
+        "key": "Animation",
+        "values": [
+          {
+            "key": "Arthur Christmas",
+            "value": 147.41
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "CBS Films",
+    "values": [
+      {
+        "key": "Romance",
+        "values": [
+          {
+            "key": "Beastly",
+            "value": 43.17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Disney",
+    "values": [
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Captain America: The First Avenger",
+            "value": 370.57
+          },
+          {
+            "key": "Pirates of the Caribbean:\nOn Stranger Tides",
+            "value": 0
+          },
+          {
+            "key": "Thor",
+            "value": 449.32
+          },
+          {
+            "key": "X-Men: First Class",
+            "value": 353.62
+          }
+        ]
+      },
+      {
+        "key": "Animation",
+        "values": [
+          {
+            "key": "Gnomeo and Juliet",
+            "value": 193.97
+          },
+          {
+            "key": "Mars Needs Moms",
+            "value": 38.99
+          },
+          {
+            "key": "Winnie The Pooh",
+            "value": 33.15
+          }
+        ]
+      },
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "The Muppets",
+            "value": 165.18
+          }
+        ]
+      },
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "War Horse",
+            "value": 177.584
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Pixar",
+    "values": [
+      {
+        "key": "Animation",
+        "values": [
+          {
+            "key": "Cars 2",
+            "value": 559.85
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "20th Century Fox",
+    "values": [
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "Cedar Rapids",
+            "value": 6.86
+          },
+          {
+            "key": "Diary of a Wimpy Kid 2: Rodrick Rules",
+            "value": 72.42
+          },
+          {
+            "key": "Mr. Popper's Penguins",
+            "value": 187.36
+          },
+          {
+            "key": "What's Your Number",
+            "value": 30.43
+          }
+        ]
+      },
+      {
+        "key": "Romance",
+        "values": [
+          {
+            "key": "Monte Carlo",
+            "value": 39.67
+          }
+        ]
+      },
+      {
+        "key": "Animation",
+        "values": [
+          {
+            "key": "Rio",
+            "value": 484.63
+          }
+        ]
+      },
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Rise of the Planet of the Apes",
+            "value": 481.74
+          }
+        ]
+      },
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "The Descendants",
+            "value": 177.24
+          },
+          {
+            "key": "Water For Elephants",
+            "value": 117.09
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Sony",
+    "values": [
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Colombiana",
+            "value": 60.97
+          },
+          {
+            "key": "Priest",
+            "value": 78.31
+          }
+        ]
+      },
+      {
+        "key": "Horror",
+        "values": [
+          {
+            "key": "Insidious",
+            "value": 97.01
+          }
+        ]
+      },
+      {
+        "key": "Romance",
+        "values": [
+          {
+            "key": "Midnight in Paris",
+            "value": 151.12
+          }
+        ]
+      },
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "Soul Surfer",
+            "value": 47.09
+          }
+        ]
+      },
+      {
+        "key": "Thriller",
+        "values": [
+          {
+            "key": "The Girl With The Dragon Tattoo",
+            "value": 232.161
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Universal",
+    "values": [
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Cowboys and Aliens",
+            "value": 174.82
+          },
+          {
+            "key": "Fast Five",
+            "value": 626.13
+          },
+          {
+            "key": "Hanna",
+            "value": 63.78
+          },
+          {
+            "key": "The Eagle",
+            "value": 27.12
+          }
+        ]
+      },
+      {
+        "key": "Romance",
+        "values": [
+          {
+            "key": "Jane Eyre",
+            "value": 34.71
+          }
+        ]
+      },
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "Larry Crowne",
+            "value": 72.01
+          }
+        ]
+      },
+      {
+        "key": "Thriller",
+        "values": [
+          {
+            "key": "The Debt",
+            "value": 45.64
+          }
+        ]
+      },
+      {
+        "key": "Horror",
+        "values": [
+          {
+            "key": "The Thing",
+            "value": 27.43
+          }
+        ]
+      },
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "Your Highness",
+            "value": 24.86
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Miramax Films",
+    "values": [
+      {
+        "key": "Horror",
+        "values": [
+          {
+            "key": "Don't Be Afraid Of The Dark",
+            "value": 36.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Morgan Creek Productions",
+    "values": [
+      {
+        "key": "Horror",
+        "values": [
+          {
+            "key": "Dream House",
+            "value": 38.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Reliance Entertainment",
+    "values": [
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "Everything Must Go",
+            "value": 2.71
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Warner Bros.",
+    "values": [
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "Extremely Loud and Incredibly Close",
+            "value": 55.247
+          }
+        ]
+      },
+      {
+        "key": "Romance",
+        "values": [
+          {
+            "key": "New Year's Eve",
+            "value": 142.04
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "New Line Cinema",
+    "values": [
+      {
+        "key": "Horror",
+        "values": [
+          {
+            "key": "Final Destination 5",
+            "value": 157.89
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Spyglass Entertainment",
+    "values": [
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "Footloose",
+            "value": 63.54
+          }
+        ]
+      },
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "No Strings Attached",
+            "value": 149.23
+          },
+          {
+            "key": "The Dilemma",
+            "value": 69.72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "DreamWorks",
+    "values": [
+      {
+        "key": "Horror",
+        "values": [
+          {
+            "key": "Fright Night",
+            "value": 41
+          }
+        ]
+      },
+      {
+        "key": "Animation",
+        "values": [
+          {
+            "key": "Puss In Boots",
+            "value": 554.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Village Roadshow Pictures",
+    "values": [
+      {
+        "key": "Animation",
+        "values": [
+          {
+            "key": "Happy Feet 2",
+            "value": 150.41
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Paramount",
+    "values": [
+      {
+        "key": "Adventure",
+        "values": [
+          {
+            "key": "Hugo",
+            "value": 185.769
+          },
+          {
+            "key": "The Adventures of Tintin",
+            "value": 373.993
+          }
+        ]
+      },
+      {
+        "key": "Thriller",
+        "values": [
+          {
+            "key": "I Am Number Four",
+            "value": 149.88
+          }
+        ]
+      },
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Mission Impossible 4",
+            "value": 694.71
+          }
+        ]
+      },
+      {
+        "key": "Animation",
+        "values": [
+          {
+            "key": "Rango",
+            "value": 245.72
+          }
+        ]
+      },
+      {
+        "key": "Horror",
+        "values": [
+          {
+            "key": "Super 8 ",
+            "value": 260.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Regency Enterprises",
+    "values": [
+      {
+        "key": "Thriller",
+        "values": [
+          {
+            "key": "In Time",
+            "value": 173.93
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Happy Madison",
+    "values": [
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "Jack and Jill",
+            "value": 149.68
+          }
+        ]
+      },
+      {
+        "key": "Romance",
+        "values": [
+          {
+            "key": "Just Go With It",
+            "value": 214.95
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "DreamWorks Animation",
+    "values": [
+      {
+        "key": "Animation",
+        "values": [
+          {
+            "key": "Kung Fu Panda 2",
+            "value": 665.69
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Virgin",
+    "values": [
+      {
+        "key": "Thriller",
+        "values": [
+          {
+            "key": "Limitless",
+            "value": 161.85
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Columbia",
+    "values": [
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "Moneyball",
+            "value": 110.2
+          }
+        ]
+      },
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "The Green Hornet",
+            "value": 227.82
+          }
+        ]
+      },
+      {
+        "key": "Thriller",
+        "values": [
+          {
+            "key": "The Ides of March",
+            "value": 75.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "The Weinstein Company",
+    "values": [
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "My Week with Marilyn",
+            "value": 35.06
+          }
+        ]
+      },
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "Our Idiot Brother",
+            "value": 24.82
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Relativity",
+    "values": [
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "Paul",
+            "value": 97.98
+          },
+          {
+            "key": "Take Me Home Tonight",
+            "value": 6.93
+          },
+          {
+            "key": "Tower Heist",
+            "value": 152.92
+          }
+        ]
+      },
+      {
+        "key": "Horror",
+        "values": [
+          {
+            "key": "Shark Night 3D",
+            "value": 40.14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "DreamWorks Pictures",
+    "values": [
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Real Steel",
+            "value": 299.27
+          },
+          {
+            "key": "Transformers: Dark of the Moon",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "The Help",
+            "value": 216.64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Relativity ",
+    "values": [
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Season Of The Witch",
+            "value": 91.63
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Summit Entertainment",
+    "values": [
+      {
+        "key": "Thriller",
+        "values": [
+          {
+            "key": "Source Code",
+            "value": 147.33
+          }
+        ]
+      },
+      {
+        "key": "Drama",
+        "values": [
+          {
+            "key": "The Beaver",
+            "value": 6.37
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Legendary Pictures",
+    "values": [
+      {
+        "key": "Action",
+        "values": [
+          {
+            "key": "Sucker Punch",
+            "value": 89.79
+          }
+        ]
+      },
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "The Hangover Part II",
+            "value": 586.76
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Fox",
+    "values": [
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "The Sitter",
+            "value": 34.941
+          },
+          {
+            "key": "We Bought a Zoo",
+            "value": 120.081
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Sony Pictures Animation",
+    "values": [
+      {
+        "key": "Animation",
+        "values": [
+          {
+            "key": "The Smurfs",
+            "value": 563.75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Focus",
+    "values": [
+      {
+        "key": "Thriller",
+        "values": [
+          {
+            "key": "Tinker Tailor Soldier Spy",
+            "value": 80.63
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Happy Madison Productions",
+    "values": [
+      {
+        "key": "Comedy",
+        "values": [
+          {
+            "key": "Zookeeper",
+            "value": 169.85
+          }
+        ]
+      }
+    ]
+  }
+]
