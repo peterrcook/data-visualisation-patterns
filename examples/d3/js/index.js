@@ -4,9 +4,11 @@ var data;
 var radiusScale = d3.scaleSqrt().domain([0, 100]);
 var transitionDuration = 500;
 var delay = 8;
+var sortBy = 'country';
 
 function getLayout() {
-    var cellSize = width / numColumns;
+    var cellWidth = width / numColumns;
+    var cellHeight = cellWidth * 1.2;
 
     var layout = data.map(function(d, i) {
         var ret = {};
@@ -15,8 +17,8 @@ function getLayout() {
         
         var col = i % numColumns;
         var row = Math.floor(i / numColumns);
-        ret.x = col * cellSize + 0.5 * cellSize;
-        ret.y = row * cellSize + 0.5 * cellSize;
+        ret.x = col * cellWidth + 0.5 * cellWidth;
+        ret.y = row * cellHeight + 0.5 * cellHeight;
 
         ret.oilGasCoalRadius = radiusScale(d.energyMix.oilgascoal);
         ret.renewableRadius = radiusScale(d.energyMix.renewable);
@@ -24,7 +26,7 @@ function getLayout() {
         ret.nuclearRadius = radiusScale(d.energyMix.nuclear);
 
         ret.labelX = ret.x;
-        ret.labelY = ret.y + cellSize * 0.5;
+        ret.labelY = ret.y + cellHeight * 0.45;
         ret.label = d.id;
 
         return ret;
@@ -130,8 +132,8 @@ function update() {
         .text(function(d) { return d.label; });
 }
 
-function sortBy(field) {
-    switch(field) {
+function doSort() {
+    switch(sortBy) {
     case 'country':
         data = _.sortBy(data, function(d) {
             return d.name;
@@ -155,12 +157,11 @@ function sortBy(field) {
         });
         break;
     }
-
-    update();
 }
 
 d3.json('data/data.json')
     .then(function(json) {
         data = json;
         update();
+        updateMenu();
     });

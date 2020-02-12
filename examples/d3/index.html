@@ -4,17 +4,17 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
   <div id="wrapper">
-    <div>
-      <button onclick="sortBy('country')">Sort by Country</button>
-      <button onclick="sortBy('renewables')">Sort by Renewables</button>
-      <button onclick="sortBy('oilgascoal')">Sort by Oil, Gas & Coal</button>
-      <button onclick="sortBy('nuclear')">Sort by Nuclear</button>
+    <div id="header">Energy mix by country (2015)</div>
+    <div id="menu">
+      <div>Sort by:</div>
+      <div class="items"></div>
     </div>
     <div>
       <svg width="1200" height="1200">
@@ -31,6 +31,7 @@
     
   <script src="js/d3.min.js"></script>
   <script src="js/lodash.min.js"></script>
+  <script src="js/menu.js"></script>
   <script src="js/index.js"></script>
 </body>
 </html>
