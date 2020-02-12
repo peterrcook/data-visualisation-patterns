@@ -1,0 +1,41 @@
+body {
+    background-color: #002;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+circle.oilgascoal {
+    fill: #a42;
+    /* fill: #444; */
+}
+
+
+circle.renewable {
+    stroke: #fff;
+    fill: none;
+}
+
+circle.hydroelectric {
+    stroke: #ddd;
+    fill: none;
+    stroke-dasharray: 1,1;
+}
+
+circle.nuclear {
+    stroke: #F4442E;
+    stroke-width: 2;
+    opacity: 0.75;
+    stroke-dasharray: 1,1;
+    fill: none;
+}
+
+text.label {
+    opacity: 0;
+    text-anchor: middle;
+    font-size: 0.75rem;
+    fill: #ccc;
+}
