@@ -152,23 +152,11 @@ function doSort() {
         });
         break;
     case 'renewable':
-        data = _.sortBy(data, function(d) {
-            return -d.energyMix.renewable;
-        });
-        break;
     case 'hydroelectric':
-        data = _.sortBy(data, function(d) {
-            return -d.energyMix.hydroelectric;
-        });
-        break;
     case 'oilgascoal':
-        data = _.sortBy(data, function(d) {
-            return -d.energyMix.oilgascoal;
-        });
-        break;
     case 'nuclear':
         data = _.sortBy(data, function(d) {
-            return -d.energyMix.nuclear;
+            return -d.energyMix[sortBy];
         });
         break;
     }
