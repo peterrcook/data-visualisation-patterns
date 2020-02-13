@@ -35,6 +35,8 @@ function getLayout() {
             ret.opacity = 1;
         }
 
+        ret.datum = d;
+
         return ret;
     });
 

@@ -26,18 +26,24 @@ a:hover {
     letter-spacing: -0.03rem;
 }
 
-#menu {
+#controls {
     font-size: 0.9rem;
-    padding: 1rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#controls .left, #controls .right {
     display: flex;
     align-items: center;
 }
 
-#menu .items {
+.menu .items {
     display: flex;
 }
 
-#menu .item {
+.menu .item {
     padding: 0 1rem;
     font-size: 1.25rem;
     color: #ddd;
@@ -46,17 +52,29 @@ a:hover {
     align-items: center;
 }
 
-#menu .item .label {
+.menu .item .label {
     opacity: 0.5;
     transition: opacity 0.3s;
 }
 
-#menu .item.selected .label, #menu .item:hover .label {
+.menu .item.selected .label, .menu .item:hover .label {
     opacity: 1;
 }
 
-#menu .item svg {
+.menu .item svg {
     margin-right: 0.25rem;
+}
+
+.legend circle {
+    stroke: #ddd;
+    fill: none;
+    stroke-dasharray: 1,1;
+}
+
+.legend text {
+    fill: #ddd;
+    text-anchor: middle;
+    font-size: 0.9rem;
 }
 
 circle.country {
