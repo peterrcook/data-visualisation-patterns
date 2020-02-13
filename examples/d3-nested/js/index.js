@@ -5,6 +5,7 @@ var radiusScale = d3.scaleSqrt().domain([0, 100]);
 var transitionDuration = 500;
 var transitionDelay = 8;
 var sortBy = 'country';
+var popup = Popup();
 
 function getLayout() {
     var cellWidth = width / numColumns;
@@ -34,12 +35,36 @@ function getLayout() {
             ret.opacity = 1;
         }
 
+        ret.popupOffset = -radiusScale(50);
         ret.datum = d;
 
         return ret;
     });
 
     return layout;
+}
+
+function popupTemplate(d) {
+    var html = '';
+    html += '<h3>' + d.name + '</h3>';
+
+    if(d.energyMix.renewable) {
+        html += '<div>Renewable: ' + d.energyMix.renewable + '%</div>';
+    }
+
+    if(d.energyMix.hydroelectric) {
+        html += '<div>Hydroelectric: ' + d.energyMix.hydroelectric + '%</div>';
+    }
+
+    if(d.energyMix.oilgascoal) {
+        html += '<div>Oil, Gas & Coal: ' + d.energyMix.oilgascoal + '%</div>';
+    }
+
+    if(d.energyMix.nuclear) {
+        html += '<div>Nuclear: ' + d.energyMix.nuclear + '%</div>';
+    }
+
+    return html;
 }
 
 function enteringGroups(enter) {
@@ -49,7 +74,35 @@ function enteringGroups(enter) {
         .style('opacity', 0)
         .attr('transform', function(d) {
             return 'translate(' + d.x + ',' + d.y + ')';
+        })
+        .on('mouseover', function(d) {
+            var popupCenter = d3.select(this)
+                .select('.popup-center')
+                .node();
+
+            popup
+                .point(popupCenter)
+                .html(popupTemplate(d.datum))
+                .draw();
+        })
+        .on('mouseout', function() {
+            popup.hide();
         });
+
+    enterSelection
+        .append('circle')
+        .classed('popup-center', true)
+        .style('opacity', 0)
+        .attr('cx', 0)
+        .attr('cy', function(d) {
+            return d.popupOffset;
+        })
+        .attr('r', 1);
+    
+    enterSelection.append('circle')
+        .classed('pick-area', true)
+        .style('opacity', 0)
+        .attr('r', radiusScale(100));
 
     enterSelection.append('circle')
         .classed('oilgascoal', true);

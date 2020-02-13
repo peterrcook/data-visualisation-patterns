@@ -109,10 +109,26 @@ text.label {
     font-size: 0.75rem;
     fill: #777;
     font-weight: bold;
+    transition: fill 0.3s;
+}
+
+.country:hover text.label {
+    fill: #fff;
 }
 
 #footer {
     padding: 2rem 1rem 2rem 1rem;
     display: flex;
     justify-content: space-between;
+}
+
+.flourish-popup {
+    pointer-events: none;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+.flourish-popup h3 {
+    text-align: center;
+    margin: 0.25rem 0;
 }
