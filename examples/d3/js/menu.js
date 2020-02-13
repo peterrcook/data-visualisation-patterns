@@ -22,7 +22,7 @@ var menuItems = [
 ];
 
 function updateMenu() {
-    d3.select('#menu .items')
+    d3.select('#controls .menu .items')
         .selectAll('.item')
         .data(menuItems)
         .join('div')
