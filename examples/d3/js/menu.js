@@ -35,8 +35,6 @@ function updateMenu() {
         })
         .on('click', function(d) {
             sortBy = d.id;
-            doSort();
             update();
-            updateMenu();
         });
 }

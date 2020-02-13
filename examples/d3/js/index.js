@@ -29,13 +29,19 @@ function getLayout() {
         ret.labelY = ret.y + cellHeight * 0.45;
         ret.label = d.id;
 
+        if(sortBy !== 'country') {
+            ret.opacity = d.energyMix[sortBy] > 0 ? 1 : 0;
+        } else {
+            ret.opacity = 1;
+        }
+
         return ret;
     });
 
     return layout;
 }
 
-function update() {
+function updateChart() {
     radiusScale.range([0, 0.35 * width / numColumns]);
 
     var layout = getLayout();
@@ -54,6 +60,7 @@ function update() {
         .transition()
         .duration(transitionDuration)
         .delay(function(d, i) { return i * delay })
+        .style('opacity', function(d) { return d.opacity; })
         .attr('cx', function(d) { return d.x; })
         .attr('cy', function(d) { return d.y; })
         .attr('r', function(d) { return d.oilGasCoalRadius; });
@@ -72,6 +79,7 @@ function update() {
         .transition()
         .duration(transitionDuration)
         .delay(function(d, i) { return i * delay })
+        .style('opacity', function(d) { return d.opacity; })
         .attr('cx', function(d) { return d.x; })
         .attr('cy', function(d) { return d.y; })
         .attr('r', function(d) { return d.renewableRadius; });
@@ -90,6 +98,7 @@ function update() {
         .transition()
         .duration(transitionDuration)
         .delay(function(d, i) { return i * delay })
+        .style('opacity', function(d) { return d.opacity; })
         .attr('cx', function(d) { return d.x; })
         .attr('cy', function(d) { return d.y; })
         .attr('r', function(d) { return d.hydroelectricRadius; });
@@ -108,6 +117,7 @@ function update() {
         .transition()
         .duration(transitionDuration)
         .delay(function(d, i) { return i * delay })
+        .style('opacity', function(d) { return d.opacity; })
         .attr('cx', function(d) { return d.x; })
         .attr('cy', function(d) { return d.y; })
         .attr('r', function(d) { return d.nuclearRadius; });
@@ -126,7 +136,7 @@ function update() {
         .transition()
         .duration(transitionDuration)
         .delay(function(d, i) { return i * delay })
-        .style('opacity', 1)
+        .style('opacity', function(d) { return d.opacity; })
         .attr('x', function(d) { return d.labelX; })
         .attr('y', function(d) { return d.labelY; })
         .text(function(d) { return d.label; });
@@ -162,9 +172,14 @@ function doSort() {
     }
 }
 
+function update() {
+    doSort();
+    updateChart();
+    updateMenu();
+}
+
 d3.json('data/data.json')
     .then(function(json) {
         data = json;
         update();
-        updateMenu();
     });
