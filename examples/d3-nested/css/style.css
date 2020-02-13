@@ -1,0 +1,118 @@
+body {
+    background-color: #002;
+    font-family: 'Open Sans', sans-serif;
+    color: #aaa;
+}
+
+a, a:visited {
+    color: #888;
+    transition: opacity 0.3s;
+}
+
+a:hover {
+    opacity: 0.5
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#header {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #ccc;
+    text-align: right;
+    letter-spacing: -0.03rem;
+}
+
+#controls {
+    font-size: 0.9rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#controls .left, #controls .right {
+    display: flex;
+    align-items: center;
+}
+
+.menu .items {
+    display: flex;
+}
+
+.menu .item {
+    padding: 0 1rem;
+    font-size: 1.25rem;
+    color: #ddd;
+    cursor: default;
+    display: flex;
+    align-items: center;
+}
+
+.menu .item .label {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.menu .item.selected .label, .menu .item:hover .label {
+    opacity: 1;
+}
+
+.menu .item svg {
+    margin-right: 0.25rem;
+}
+
+.legend circle {
+    stroke: #ddd;
+    fill: none;
+    stroke-dasharray: 1,1;
+}
+
+.legend text {
+    fill: #ddd;
+    text-anchor: middle;
+    font-size: 0.9rem;
+}
+
+circle.country {
+    display: none;
+}
+
+circle.oilgascoal {
+    fill: #a42;
+}
+
+circle.renewable {
+    stroke: #fff;
+    fill: none;
+}
+
+circle.hydroelectric {
+    stroke: #ddd;
+    fill: none;
+    stroke-dasharray: 1,1;
+}
+
+circle.nuclear {
+    stroke: #F4442E;
+    stroke-width: 2;
+    opacity: 0.75;
+    stroke-dasharray: 1,1;
+    fill: none;
+}
+
+text.label {
+    text-anchor: middle;
+    font-size: 0.75rem;
+    fill: #777;
+    font-weight: bold;
+}
+
+#footer {
+    padding: 2rem 1rem 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
