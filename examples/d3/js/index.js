@@ -3,7 +3,7 @@ var numColumns = 14;
 var data;
 var radiusScale = d3.scaleSqrt().domain([0, 100]);
 var transitionDuration = 500;
-var delay = 8;
+var transitionDelay = 8;
 var sortBy = 'country';
 
 function getLayout() {
@@ -61,7 +61,7 @@ function updateChart() {
         )
         .transition()
         .duration(transitionDuration)
-        .delay(function(d, i) { return i * delay })
+        .delay(function(d, i) { return i * transitionDelay })
         .style('opacity', function(d) { return d.opacity; })
         .attr('cx', function(d) { return d.x; })
         .attr('cy', function(d) { return d.y; })
@@ -80,7 +80,7 @@ function updateChart() {
         )
         .transition()
         .duration(transitionDuration)
-        .delay(function(d, i) { return i * delay })
+        .delay(function(d, i) { return i * transitionDelay })
         .style('opacity', function(d) { return d.opacity; })
         .attr('cx', function(d) { return d.x; })
         .attr('cy', function(d) { return d.y; })
@@ -99,7 +99,7 @@ function updateChart() {
         )
         .transition()
         .duration(transitionDuration)
-        .delay(function(d, i) { return i * delay })
+        .delay(function(d, i) { return i * transitionDelay })
         .style('opacity', function(d) { return d.opacity; })
         .attr('cx', function(d) { return d.x; })
         .attr('cy', function(d) { return d.y; })
@@ -118,7 +118,7 @@ function updateChart() {
         )
         .transition()
         .duration(transitionDuration)
-        .delay(function(d, i) { return i * delay })
+        .delay(function(d, i) { return i * transitionDelay })
         .style('opacity', function(d) { return d.opacity; })
         .attr('cx', function(d) { return d.x; })
         .attr('cy', function(d) { return d.y; })
@@ -137,7 +137,7 @@ function updateChart() {
         )
         .transition()
         .duration(transitionDuration)
-        .delay(function(d, i) { return i * delay })
+        .delay(function(d, i) { return i * transitionDelay })
         .style('opacity', function(d) { return d.opacity; })
         .attr('x', function(d) { return d.labelX; })
         .attr('y', function(d) { return d.labelY; })
