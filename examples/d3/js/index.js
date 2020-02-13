@@ -139,11 +139,14 @@ function doSort() {
             return d.name;
         });
         break;
-    case 'renewables':
+    case 'renewable':
         data = _.sortBy(data, function(d) {
-            // Include hydroelectric, otherwise Zambia (as an example) ends up at the end
-            // which doesn't seem fair seeing as most of its energy is hydro
-            return -(d.energyMix.renewable + d.energyMix.hydroelectric);
+            return -d.energyMix.renewable;
+        });
+        break;
+    case 'hydroelectric':
+        data = _.sortBy(data, function(d) {
+            return -d.energyMix.hydroelectric;
         });
         break;
     case 'oilgascoal':
