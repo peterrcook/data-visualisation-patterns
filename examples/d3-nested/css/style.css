@@ -2,6 +2,7 @@ body {
     background-color: #002;
     font-family: 'Open Sans', sans-serif;
     color: #aaa;
+    margin: 0;
 }
 
 a, a:visited {
@@ -52,6 +53,10 @@ a:hover {
     align-items: center;
 }
 
+.menu .item:first-child svg {
+    display: none;
+}
+
 .menu .item .label {
     opacity: 0.5;
     transition: opacity 0.3s;
@@ -66,9 +71,8 @@ a:hover {
 }
 
 .legend circle {
-    stroke: #ddd;
+    stroke: #aaa;
     fill: none;
-    stroke-dasharray: 1,1;
 }
 
 .legend text {
@@ -92,15 +96,17 @@ circle.renewable {
 
 circle.hydroelectric {
     stroke: #ddd;
+    stroke-width: 1;
     fill: none;
-    stroke-dasharray: 1,1;
+    stroke-dasharray: 2,2;
 }
 
 circle.nuclear {
     stroke: #F4442E;
+    stroke: #FCD581;
     stroke-width: 2;
     opacity: 0.75;
-    stroke-dasharray: 1,1;
+    stroke-dasharray: 4,2;
     fill: none;
 }
 
