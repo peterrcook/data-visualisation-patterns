@@ -27,6 +27,7 @@ function getLayout(data, args) {
         }
 
         ret.popupOffset = -args.radiusScale(50);
+        ret.pickRadius = args.radiusScale(100);
         ret.datum = d;
 
         return ret;

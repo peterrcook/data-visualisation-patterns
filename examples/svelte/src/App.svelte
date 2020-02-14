@@ -1,6 +1,7 @@
 <script>
 import Controls from './Controls.svelte';
 import Chart from './Chart.svelte';
+import './popup';
 export let data;
 
 </script>
@@ -30,7 +31,6 @@ a:hover {
 #wrapper {
   margin: 0 auto;
   width: 1200px;
-  font-family: 'Open Sans', sans-serif;
   color: #aaa;
 }
 

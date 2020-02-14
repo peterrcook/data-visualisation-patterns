@@ -37,23 +37,28 @@ beforeUpdate(() => {
   });
 });
 
-function handleMouseover(e) {
-  /* console.log('over', e);
-   * hoveredMeta.update(() => {
-   *   return {
-   *     d: 
-   *   };
-   * }); */
+function handleMouseover() {
+  hoveredMeta.update(() => {
+    return {
+      d: d,
+      el: popupAnchor
+    };
+  });
+}
+
+function handleMouseout() {
+  hoveredMeta.update(() => null);
 }
 </script>
 
-<g class="country" transform={`translate(${$t.x},${$t.y})`} style="opacity: {$t.opacity}" on:mouseover={handleMouseover}>
+<g class="country" transform={`translate(${$t.x},${$t.y})`} style="opacity: {$t.opacity}" on:mouseover={handleMouseover} on:mouseout={handleMouseout} >
+  <circle class="pick-area" r={d.pickRadius} />
   <circle class="oilgascoal" r={$t.oilGasCoalRadius} />
   <circle class="renewable" r={$t.renewableRadius} />
   <circle class="hydroelectric" r={$t.hydroelectricRadius} />
   <circle class="nuclear" r={$t.nuclearRadius} />
   <text class="label" y={d.labelYOffset}>{d.label}</text>
-  <circle class="popup-anchor" cy={d.popupOffset} r="1" />
+  <circle class="popup-anchor" cy={d.popupOffset} r="1" bind:this={popupAnchor} />
 </g>
 
 <style>
@@ -70,6 +75,10 @@ text.label {
 }
 
 .popup-anchor {
+  opacity: 0;
+}
+
+.pick-area {
   opacity: 0;
 }
 </style>
