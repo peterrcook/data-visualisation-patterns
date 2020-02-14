@@ -2,7 +2,15 @@
 import { tweened } from 'svelte/motion';
 import { beforeUpdate } from 'svelte';
 
-export let x, y, oilGasCoalRadius, renewableRadius, hydroelectricRadius, nuclearRadius, delay;
+export let x;
+export let y;
+export let oilGasCoalRadius;
+export let renewableRadius;
+export let hydroelectricRadius;
+export let nuclearRadius;
+export let delay;
+export let labelYOffset;
+export let label;
 
 let t = tweened({
   x: x,
@@ -35,6 +43,7 @@ beforeUpdate(() => {
   <circle class="renewable" r={$t.renewableRadius}></circle>
   <circle class="hydroelectric" r={$t.hydroelectricRadius}></circle>
   <circle class="nuclear" r={$t.nuclearRadius}></circle>
+  <text class="label" y={labelYOffset}>{label}</text>
 </g>
 
 <style>

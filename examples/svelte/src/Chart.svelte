@@ -36,6 +36,8 @@ const unsubscribe = selectedSortBy.subscribe(value => {
           renewableRadius={d.renewableRadius}
           hydroelectricRadius={d.hydroelectricRadius}
           nuclearRadius={d.nuclearRadius}
+          labelYOffset={d.labelYOffset}
+          label={d.label}
           delay={i * 10} />
       {/each}
     </g>
