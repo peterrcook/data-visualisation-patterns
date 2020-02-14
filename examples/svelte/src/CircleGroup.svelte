@@ -41,7 +41,7 @@ beforeUpdate(() => {
 
 </script>
 
-<g transform={`translate(${$t.x},${$t.y})`} style="opacity: {$t.opacity}">
+<g class="country" transform={`translate(${$t.x},${$t.y})`} style="opacity: {$t.opacity}">
   <circle class="oilgascoal" r={$t.oilGasCoalRadius}></circle>
   <circle class="renewable" r={$t.renewableRadius}></circle>
   <circle class="hydroelectric" r={$t.hydroelectricRadius}></circle>
