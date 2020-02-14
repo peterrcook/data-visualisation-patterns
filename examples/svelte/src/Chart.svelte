@@ -35,7 +35,7 @@ $: layout = getLayout(sortedData, {
           nuclearRadius={d.nuclearRadius}
           labelYOffset={d.labelYOffset}
           label={d.label}
-          delay={i * 10} />
+          delay={i * 8} />
       {/each}
     </g>
   </svg>
