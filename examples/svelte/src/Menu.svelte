@@ -1,4 +1,6 @@
 <script>
+import { selectedSortBy } from './store.js';
+
 let menuItems = [
   {
     id: 'country',
@@ -21,13 +23,17 @@ let menuItems = [
     label: 'Nuclear'
   }
 ];
+
+function handleClick(item) {
+  selectedSortBy.update(() => item.id);
+}
 </script>
 
 <div class="menu">
   <div>Sort by:</div>
   <div class="items">
     {#each menuItems as item}
-      <div class="item">
+      <div class="item" class:selected={$selectedSortBy === item.id} on:click={() => handleClick(item)}>
         <svg width="18" height="18">
           <circle class={item.id} cx="9" cy="9" r="8" />
         </svg>
