@@ -20,13 +20,11 @@ function getLayout(data, args) {
         ret.labelYOffset = cellHeight * 0.45;
         ret.label = d.id;
 
-        // if(sortBy !== 'country') {
-        //     ret.opacity = d.energyMix[sortBy] > 0 ? 1 : 0;
-        // } else {
-        //     ret.opacity = 1;
-        // }
-
-        ret.opacity = 1;
+        if(args.sortBy !== 'country') {
+            ret.opacity = d.energyMix[args.sortBy] > 0 ? 1 : 0;
+        } else {
+            ret.opacity = 1;
+        }
 
         ret.popupOffset = -args.radiusScale(50);
         ret.datum = d;

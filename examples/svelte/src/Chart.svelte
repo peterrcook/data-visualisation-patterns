@@ -16,7 +16,8 @@ $: sortedData = sortData(data, sortByValue);
 $: layout = getLayout(sortedData, {
   width,
   numColumns,
-  radiusScale
+  radiusScale,
+  sortBy: sortByValue
 });
 
 const unsubscribe = selectedSortBy.subscribe(value => {
@@ -30,6 +31,7 @@ const unsubscribe = selectedSortBy.subscribe(value => {
     <g id="chart">
       {#each layout as d, i (d.id)}
         <CircleGroup
+          opacity={d.opacity}
           x={d.x}
           y={d.y}
           oilGasCoalRadius={d.oilGasCoalRadius}

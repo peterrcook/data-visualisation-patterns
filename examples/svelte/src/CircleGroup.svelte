@@ -2,6 +2,7 @@
 import { tweened } from 'svelte/motion';
 import { beforeUpdate } from 'svelte';
 
+export let opacity;
 export let x;
 export let y;
 export let oilGasCoalRadius;
@@ -13,8 +14,9 @@ export let labelYOffset;
 export let label;
 
 let t = tweened({
-  x: x,
-  y: y,
+  opacity,
+  x,
+  y,
   oilGasCoalRadius: 0,
   renewableRadius: 0,
   hydroelectricRadius: 0,
@@ -27,6 +29,7 @@ let t = tweened({
 
 beforeUpdate(() => {
   t.set({
+    opacity,
     x,
     y,
     oilGasCoalRadius: oilGasCoalRadius || 0,
@@ -38,7 +41,7 @@ beforeUpdate(() => {
 
 </script>
 
-<g transform={`translate(${$t.x},${$t.y})`}>
+<g transform={`translate(${$t.x},${$t.y})`} style="opacity: {$t.opacity}">
   <circle class="oilgascoal" r={$t.oilGasCoalRadius}></circle>
   <circle class="renewable" r={$t.renewableRadius}></circle>
   <circle class="hydroelectric" r={$t.hydroelectricRadius}></circle>
