@@ -51,7 +51,13 @@ function handleMouseout() {
 }
 </script>
 
-<g class="country" transform={`translate(${$t.x},${$t.y})`} style="opacity: {$t.opacity}" on:mouseover={handleMouseover} on:mouseout={handleMouseout} >
+<g
+  class="country"
+  transform={`translate(${$t.x},${$t.y})`}
+  style="opacity: {$t.opacity}"
+  on:mouseover={handleMouseover}
+  on:mouseout={handleMouseout}
+>
   <circle class="pick-area" r={d.pickRadius} />
   <circle class="oilgascoal" r={$t.oilGasCoalRadius} />
   <circle class="renewable" r={$t.renewableRadius} />
