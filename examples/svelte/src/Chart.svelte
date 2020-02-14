@@ -1,20 +1,16 @@
 <script>
 import { beforeUpdate } from 'svelte';
+import CircleGroup from './CircleGroup.svelte';
+
 import { scaleSqrt } from 'd3-scale';
 
-import CircleGroup from './CircleGroup.svelte';
 import getLayout from './layout';
 
-export let data;
-
-let width = 1200;
-let numColumns = 14;
-var radiusScale = scaleSqrt().domain([0, 100])
-let layout = [];
+export let data, width = 1200, numColumns = 14;
 
 
-function update() {
-}
+let radiusScale = scaleSqrt().domain([0, 100]);
+let layout;
 
 beforeUpdate(() => {
   radiusScale.range([0, 0.35 * width / numColumns]);
@@ -24,23 +20,24 @@ beforeUpdate(() => {
     numColumns,
     radiusScale
   });
-
-  console.log('layout', layout);
 });
 </script>
 
 
-<svg width="1200" height="1150">
-  {#each layout as d, i}
-    <CircleGroup
-      x={d.x}
-      y={d.y}
-      oilGasCoalRadius={d.oilGasCoalRadius}
-      renewableRadius={d.renewableRadius}
-      hydroelectricRadius={d.hydroelectricRadius}
-      nuclearRadius={d.nuclearRadius}
-      delay={i * 10} />
-  {/each}
-</svg>
+<div id="chart-wrapper">
+  <svg width="1200" height="1150">
+    <g id="chart">
+      {#each layout as d, i}
+        <CircleGroup
+          x={d.x}
+          y={d.y}
+          oilGasCoalRadius={d.oilGasCoalRadius}
+          renewableRadius={d.renewableRadius}
+          hydroelectricRadius={d.hydroelectricRadius}
+          nuclearRadius={d.nuclearRadius}
+          delay={i * 10} />
+      {/each}
+    </g>
+  </svg>
+</div>
 
-<button on:click={update}>Update</button>

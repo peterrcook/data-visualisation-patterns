@@ -31,15 +31,51 @@ beforeUpdate(() => {
 </script>
 
 <g transform={`translate(${$t.x},${$t.y})`}>
-  <circle r={$t.oilGasCoalRadius}></circle>
-  <circle r={$t.renewableRadius}></circle>
-  <circle r={$t.hydroelectricRadius}></circle>
-  <circle r={$t.nuclearRadius}></circle>
+  <circle class="oilgascoal" r={$t.oilGasCoalRadius}></circle>
+  <circle class="renewable" r={$t.renewableRadius}></circle>
+  <circle class="hydroelectric" r={$t.hydroelectricRadius}></circle>
+  <circle class="nuclear" r={$t.nuclearRadius}></circle>
 </g>
 
 <style>
-  circle {
+circle.country {
+  display: none;
+}
+
+circle.oilgascoal {
+  fill: #a42;
+}
+
+circle.renewable {
+  stroke: #fff;
   fill: none;
-  stroke: #aaa;
-  }
+}
+
+circle.hydroelectric {
+  stroke: #ddd;
+  stroke-width: 1;
+  fill: none;
+  stroke-dasharray: 2,2;
+}
+
+circle.nuclear {
+  stroke: #F4442E;
+  stroke: #FCD581;
+  stroke-width: 2;
+  opacity: 0.75;
+  stroke-dasharray: 4,2;
+  fill: none;
+}
+
+text.label {
+  text-anchor: middle;
+  font-size: 0.75rem;
+  fill: #777;
+  font-weight: bold;
+  transition: fill 0.3s;
+}
+
+.country:hover text.label {
+  fill: #fff;
+}
 </style>
