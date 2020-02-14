@@ -1,5 +1,6 @@
 <script>
 import { tweened } from 'svelte/motion';
+/* import { cubicInOut } from 'svelte/easing'; */
 import { beforeUpdate } from 'svelte';
 
 export let opacity;
@@ -23,7 +24,8 @@ let t = tweened({
   nuclearRadius: 0
 }, {
   duration: 500,
-  delay: delay
+  delay: delay,
+  /* easing: cubicInOut */
 });
 
 
