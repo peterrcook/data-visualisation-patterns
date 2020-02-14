@@ -3,21 +3,17 @@ import { tweened } from 'svelte/motion';
 /* import { cubicInOut } from 'svelte/easing'; */
 import { beforeUpdate } from 'svelte';
 
-export let opacity;
-export let x;
-export let y;
-export let oilGasCoalRadius;
-export let renewableRadius;
-export let hydroelectricRadius;
-export let nuclearRadius;
+import { hoveredMeta } from './store.js';
+
+export let d;
 export let delay;
-export let labelYOffset;
-export let label;
+
+let popupAnchor;
 
 let t = tweened({
-  opacity,
-  x,
-  y,
+  opacity: 0,
+  x: d.x,
+  y: d.y,
   oilGasCoalRadius: 0,
   renewableRadius: 0,
   hydroelectricRadius: 0,
@@ -31,24 +27,33 @@ let t = tweened({
 
 beforeUpdate(() => {
   t.set({
-    opacity,
-    x,
-    y,
-    oilGasCoalRadius: oilGasCoalRadius || 0,
-    renewableRadius: renewableRadius || 0,
-    hydroelectricRadius: hydroelectricRadius || 0,
-    nuclearRadius: nuclearRadius || 0
+    opacity: d.opacity,
+    x: d.x,
+    y: d.y,
+    oilGasCoalRadius: d.oilGasCoalRadius || 0,
+    renewableRadius: d.renewableRadius || 0,
+    hydroelectricRadius: d.hydroelectricRadius || 0,
+    nuclearRadius: d.nuclearRadius || 0
   });
 });
 
+function handleMouseover(e) {
+  /* console.log('over', e);
+   * hoveredMeta.update(() => {
+   *   return {
+   *     d: 
+   *   };
+   * }); */
+}
 </script>
 
-<g class="country" transform={`translate(${$t.x},${$t.y})`} style="opacity: {$t.opacity}">
-  <circle class="oilgascoal" r={$t.oilGasCoalRadius}></circle>
-  <circle class="renewable" r={$t.renewableRadius}></circle>
-  <circle class="hydroelectric" r={$t.hydroelectricRadius}></circle>
-  <circle class="nuclear" r={$t.nuclearRadius}></circle>
-  <text class="label" y={labelYOffset}>{label}</text>
+<g class="country" transform={`translate(${$t.x},${$t.y})`} style="opacity: {$t.opacity}" on:mouseover={handleMouseover}>
+  <circle class="oilgascoal" r={$t.oilGasCoalRadius} />
+  <circle class="renewable" r={$t.renewableRadius} />
+  <circle class="hydroelectric" r={$t.hydroelectricRadius} />
+  <circle class="nuclear" r={$t.nuclearRadius} />
+  <text class="label" y={d.labelYOffset}>{d.label}</text>
+  <circle class="popup-anchor" cy={d.popupOffset} r="1" />
 </g>
 
 <style>
@@ -62,5 +67,9 @@ text.label {
 
 .country:hover text.label {
   fill: #fff;
+}
+
+.popup-anchor {
+  opacity: 0;
 }
 </style>

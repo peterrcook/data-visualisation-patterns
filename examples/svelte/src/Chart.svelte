@@ -17,25 +17,13 @@ $: layout = getLayout(sortedData, {
   radiusScale,
   sortBy: $selectedSortBy
 });
-
 </script>
-
 
 <div id="chart-wrapper">
   <svg width={width} height="1150">
     <g id="chart">
       {#each layout as d, i (d.id)}
-        <CircleGroup
-          opacity={d.opacity}
-          x={d.x}
-          y={d.y}
-          oilGasCoalRadius={d.oilGasCoalRadius}
-          renewableRadius={d.renewableRadius}
-          hydroelectricRadius={d.hydroelectricRadius}
-          nuclearRadius={d.nuclearRadius}
-          labelYOffset={d.labelYOffset}
-          label={d.label}
-          delay={i * 8} />
+        <CircleGroup {d} delay={i * 8} />
       {/each}
     </g>
   </svg>
