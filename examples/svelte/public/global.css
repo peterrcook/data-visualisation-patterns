@@ -3,64 +3,40 @@ body {
     margin: 0;
 }
 
-#controls {
-    font-size: 0.9rem;
-    padding: 0 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#controls .left, #controls .right {
-    display: flex;
-    align-items: center;
-}
-
-.menu .items {
-    display: flex;
-}
-
-.menu .item {
-    padding: 0 1rem;
-    font-size: 1.25rem;
-    color: #ddd;
-    cursor: default;
-    display: flex;
-    align-items: center;
-}
-
-.menu .item:first-child svg {
-    display: none;
-}
-
-.menu .item .label {
-    opacity: 0.5;
-    transition: opacity 0.3s;
-}
-
-.menu .item.selected .label, .menu .item:hover .label {
-    opacity: 1;
-}
-
-.menu .item svg {
-    margin-right: 0.25rem;
-}
-
-.legend circle {
-    stroke: #aaa;
-    fill: none;
-}
-
-.legend text {
-    fill: #ddd;
-    text-anchor: middle;
-    font-size: 0.9rem;
-}
-
 #footer {
     padding: 2rem 1rem 2rem 1rem;
     display: flex;
     justify-content: space-between;
+}
+
+/* Circle styles are here because they're shared between chart and menu */
+circle.country {
+  display: none;
+}
+
+circle.oilgascoal {
+  fill: #a42;
+}
+
+circle.renewable {
+  stroke: #fff;
+  fill: none;
+}
+
+circle.hydroelectric {
+  stroke: #ddd;
+  stroke-width: 1;
+  fill: none;
+  stroke-dasharray: 2,2;
+}
+
+circle.nuclear {
+  stroke: #F4442E;
+  stroke: #FCD581;
+  stroke-width: 2;
+  opacity: 0.75;
+  stroke-dasharray: 4,2;
+  fill: none;
 }
 
 .flourish-popup {

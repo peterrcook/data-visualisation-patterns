@@ -38,35 +38,6 @@ beforeUpdate(() => {
 </g>
 
 <style>
-circle.country {
-  display: none;
-}
-
-circle.oilgascoal {
-  fill: #a42;
-}
-
-circle.renewable {
-  stroke: #fff;
-  fill: none;
-}
-
-circle.hydroelectric {
-  stroke: #ddd;
-  stroke-width: 1;
-  fill: none;
-  stroke-dasharray: 2,2;
-}
-
-circle.nuclear {
-  stroke: #F4442E;
-  stroke: #FCD581;
-  stroke-width: 2;
-  opacity: 0.75;
-  stroke-dasharray: 4,2;
-  fill: none;
-}
-
 text.label {
   text-anchor: middle;
   font-size: 0.75rem;

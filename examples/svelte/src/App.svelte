@@ -1,4 +1,5 @@
 <script>
+import Controls from './Controls.svelte';
 import Chart from './Chart.svelte';
 export let data;
 
@@ -7,21 +8,8 @@ export let data;
 <main>
   <div id="wrapper">
     <div id="header">Energy mix by country (2015)</div>
-    <div id="controls">
-      <div class="left menu">
-        <div>Sort by:</div>
-        <div class="items"></div>
-      </div>
-      <div class="right legend">
-        <svg width="70" height="70">
-          <g transform="translate(35,35)">
-            <circle r="30" />
-            <text dy="0.33rem">100%</text>
-          </g>
-        </svg>
-      </div>
-    </div>
-    <Chart data="{data}"></Chart>
+    <Controls />
+    <Chart data="{data}" />
     <div id="footer">
       <div>Data: <a href="https://datacatalog.worldbank.org/dataset/world-development-indicators">World Bank</a></div>
       <div><a href="https://github.com/peterrcook/data-visualisation-patterns">Source code</a></div>
