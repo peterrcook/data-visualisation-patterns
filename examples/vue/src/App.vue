@@ -1,7 +1,7 @@
 <template>
   <div id="wrapper">
     <div id="header">Energy mix by country (2015)</div>
-    <!-- <Controls /> -->
+    <Controls />
     <Chart />
     <div id="footer">
       <div>Data: <a href="https://datacatalog.worldbank.org/dataset/world-development-indicators">World Bank</a></div>
@@ -11,11 +11,13 @@
 </template>
 
 <script>
+import Controls from './components/Controls.vue';
 import Chart from './components/Chart.vue';
 
 export default {
   name: 'App',
   components: {
+    Controls,
     Chart
   }
 }

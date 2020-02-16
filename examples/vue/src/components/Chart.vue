@@ -15,6 +15,7 @@ import CircleGroup from './CircleGroup';
 
 import store from '../store';
 import getLayout from '../layout';
+import { sortData } from '../utility';
 
 export default {
   name: 'Chart',
@@ -32,12 +33,15 @@ export default {
     radiusScale: function() {
       return scaleSqrt().domain([0, 100]).range([0, 0.35 * this.width / this.numColumns]);
     },
+    sortedData: function() {
+      return sortData(this.storeState.data, this.storeState.selectedSortBy);
+    },
     layout: function() {
-      return getLayout(this.storeState.data, {
+      return getLayout(this.sortedData, {
         width: this.width,
         numColumns: this.numColumns,
         radiusScale: this.radiusScale,
-        sortBy: 'country'
+        sortBy: this.storeState.selectedSortBy
       });
     }
   }

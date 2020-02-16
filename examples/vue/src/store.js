@@ -1,17 +1,13 @@
 var store = {
     state: {
         data: [],
-        message: 'Hello!!!!'
+        selectedSortBy: 'country'
     },
-    setMessageAction (newValue) {
-        this.state.message = newValue
-    },
-    clearMessageAction () {
-        this.state.message = ''
-    },
-
     setData(data) {
         this.state.data = data;
+    },
+    setSelectedSortBy(newValue) {
+        this.state.selectedSortBy = newValue;
     }
 }
 
