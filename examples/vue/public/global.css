@@ -1,0 +1,52 @@
+body {
+    background-color: #002;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footer {
+    padding: 2rem 1rem 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Circle styles are here because they're shared between chart and menu */
+circle.country {
+  display: none;
+}
+
+circle.oilgascoal {
+  fill: #a42;
+}
+
+circle.renewable {
+  stroke: #fff;
+  fill: none;
+}
+
+circle.hydroelectric {
+  stroke: #ddd;
+  stroke-width: 1;
+  fill: none;
+  stroke-dasharray: 2,2;
+}
+
+circle.nuclear {
+  stroke: #F4442E;
+  stroke: #FCD581;
+  stroke-width: 2;
+  opacity: 0.75;
+  stroke-dasharray: 4,2;
+  fill: none;
+}
+
+.flourish-popup {
+    pointer-events: none;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+.flourish-popup h3 {
+    text-align: center;
+    margin: 0.25rem 0;
+}

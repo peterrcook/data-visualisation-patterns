@@ -1,0 +1,1728 @@
+[
+  {
+    "id": "ALB",
+    "name": "Albania",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 100,
+      "gas": 0,
+      "oil": 0,
+      "oilgascoal": 0,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "DZA",
+    "name": "Algeria",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0.2,
+      "gas": 98.4,
+      "oil": 1.3,
+      "oilgascoal": 99.7,
+      "renewable": 0.1
+    }
+  },
+  {
+    "id": "AGO",
+    "name": "Angola",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 53.2,
+      "gas": 0,
+      "oil": 46.8,
+      "oilgascoal": 46.8,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "ARG",
+    "name": "Argentina",
+    "energyMix": {
+      "coal": 2,
+      "hydroelectric": 26.2,
+      "gas": 49.5,
+      "oil": 15.4,
+      "oilgascoal": 66.9,
+      "renewable": 1.9
+    }
+  },
+  {
+    "id": "ARM",
+    "name": "Armenia",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 28.3,
+      "gas": 35.9,
+      "oil": 0,
+      "oilgascoal": 35.9,
+      "renewable": 0.1
+    }
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "energyMix": {
+      "coal": 62.9,
+      "hydroelectric": 5.3,
+      "gas": 20.8,
+      "nuclear": 0,
+      "oil": 2.7,
+      "oilgascoal": 86.4,
+      "renewable": 8.3
+    }
+  },
+  {
+    "id": "AUT",
+    "name": "Austria",
+    "energyMix": {
+      "coal": 8.2,
+      "hydroelectric": 60,
+      "gas": 12.6,
+      "nuclear": 0,
+      "oil": 1.4,
+      "oilgascoal": 22.2,
+      "renewable": 16.5
+    }
+  },
+  {
+    "id": "AZE",
+    "name": "Azerbaijan",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 6.6,
+      "gas": 86.1,
+      "oil": 6.5,
+      "oilgascoal": 92.6,
+      "renewable": 0.4
+    }
+  },
+  {
+    "id": "BHR",
+    "name": "Bahrain",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 100,
+      "oil": 0,
+      "oilgascoal": 100,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "BGD",
+    "name": "Bangladesh",
+    "energyMix": {
+      "coal": 1.7,
+      "hydroelectric": 1,
+      "gas": 80.7,
+      "oil": 16.4,
+      "oilgascoal": 98.8,
+      "renewable": 0.3
+    }
+  },
+  {
+    "id": "BLR",
+    "name": "Belarus",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0.3,
+      "gas": 97.9,
+      "oil": 1.1,
+      "oilgascoal": 98.9,
+      "renewable": 0.5
+    }
+  },
+  {
+    "id": "BEL",
+    "name": "Belgium",
+    "energyMix": {
+      "coal": 6.1,
+      "hydroelectric": 0.5,
+      "gas": 32.8,
+      "nuclear": 37.5,
+      "oil": 0.3,
+      "oilgascoal": 39.2,
+      "renewable": 20.3
+    }
+  },
+  {
+    "id": "BEN",
+    "name": "Benin",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 4.1,
+      "gas": 0,
+      "oil": 94.4,
+      "oilgascoal": 94.4,
+      "renewable": 1.5
+    }
+  },
+  {
+    "id": "BOL",
+    "name": "Bolivia",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 28.9,
+      "gas": 66.3,
+      "oil": 2.3,
+      "oilgascoal": 68.6,
+      "renewable": 2.5
+    }
+  },
+  {
+    "id": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "energyMix": {
+      "coal": 64,
+      "hydroelectric": 35.5,
+      "gas": 0.2,
+      "oil": 0.3,
+      "oilgascoal": 64.5,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "BWA",
+    "name": "Botswana",
+    "energyMix": {
+      "coal": 96.4,
+      "hydroelectric": 0,
+      "gas": 0,
+      "oil": 3.6,
+      "oilgascoal": 100,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "BRA",
+    "name": "Brazil",
+    "energyMix": {
+      "coal": 4.7,
+      "hydroelectric": 61.8,
+      "gas": 13.7,
+      "oil": 5,
+      "oilgascoal": 23.4,
+      "renewable": 12.1
+    }
+  },
+  {
+    "id": "BRN",
+    "name": "Brunei Darussalam",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 99,
+      "oil": 1,
+      "oilgascoal": 100,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "BGR",
+    "name": "Bulgaria",
+    "energyMix": {
+      "coal": 46.2,
+      "hydroelectric": 11.6,
+      "gas": 3.8,
+      "oil": 0.4,
+      "oilgascoal": 50.4,
+      "renewable": 6.4
+    }
+  },
+  {
+    "id": "KHM",
+    "name": "Cambodia",
+    "energyMix": {
+      "coal": 48.4,
+      "hydroelectric": 45.5,
+      "gas": 0,
+      "oil": 5.2,
+      "oilgascoal": 53.6,
+      "renewable": 0.9
+    }
+  },
+  {
+    "id": "CMR",
+    "name": "Cameroon",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 75,
+      "gas": 6,
+      "oil": 17.9,
+      "oilgascoal": 23.9,
+      "renewable": 1.1
+    }
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "energyMix": {
+      "coal": 9.8,
+      "hydroelectric": 56.7,
+      "gas": 10,
+      "nuclear": 15.5,
+      "oil": 1.2,
+      "oilgascoal": 21.1,
+      "renewable": 6.3
+    }
+  },
+  {
+    "id": "CHL",
+    "name": "Chile",
+    "energyMix": {
+      "coal": 37.1,
+      "hydroelectric": 31.7,
+      "gas": 15.1,
+      "nuclear": 0,
+      "oil": 4.2,
+      "oilgascoal": 56.4,
+      "renewable": 11.9
+    }
+  },
+  {
+    "id": "CHN",
+    "name": "China",
+    "energyMix": {
+      "coal": 70.3,
+      "hydroelectric": 19.1,
+      "gas": 2.5,
+      "oil": 0.2,
+      "oilgascoal": 73,
+      "renewable": 4.9
+    }
+  },
+  {
+    "id": "COL",
+    "name": "Colombia",
+    "energyMix": {
+      "coal": 11.9,
+      "hydroelectric": 65,
+      "gas": 19.3,
+      "oil": 0.6,
+      "oilgascoal": 31.8,
+      "renewable": 3.3
+    }
+  },
+  {
+    "id": "COD",
+    "name": "Congo, Dem. Rep.",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 99.7,
+      "gas": 0,
+      "oil": 0.1,
+      "oilgascoal": 0.2,
+      "renewable": 0.1
+    }
+  },
+  {
+    "id": "COG",
+    "name": "Congo, Rep.",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 53.3,
+      "gas": 46.7,
+      "oil": 0,
+      "oilgascoal": 46.7,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "CRI",
+    "name": "Costa Rica",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 74.6,
+      "gas": 0,
+      "oil": 1,
+      "oilgascoal": 1,
+      "renewable": 24.4
+    }
+  },
+  {
+    "id": "CIV",
+    "name": "Cote d'Ivoire",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 15.5,
+      "gas": 78.1,
+      "oil": 5.2,
+      "oilgascoal": 83.3,
+      "renewable": 1.2
+    }
+  },
+  {
+    "id": "HRV",
+    "name": "Croatia",
+    "energyMix": {
+      "coal": 20.6,
+      "hydroelectric": 56.9,
+      "gas": 10.7,
+      "oil": 2,
+      "oilgascoal": 33.2,
+      "renewable": 10
+    }
+  },
+  {
+    "id": "CUB",
+    "name": "Cuba",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0.2,
+      "gas": 14.5,
+      "oil": 46,
+      "oilgascoal": 60.5,
+      "renewable": 3.7
+    }
+  },
+  {
+    "id": "CYP",
+    "name": "Cyprus",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 0,
+      "oil": 91.2,
+      "oilgascoal": 91.2,
+      "renewable": 8.8
+    }
+  },
+  {
+    "id": "CZE",
+    "name": "Czech Republic",
+    "energyMix": {
+      "coal": 53.1,
+      "hydroelectric": 2.2,
+      "gas": 2.7,
+      "nuclear": 32.5,
+      "oil": 0.1,
+      "oilgascoal": 55.9,
+      "renewable": 9.2
+    }
+  },
+  {
+    "id": "DNK",
+    "name": "Denmark",
+    "energyMix": {
+      "coal": 24.5,
+      "hydroelectric": 0.1,
+      "gas": 6.3,
+      "nuclear": 0,
+      "oil": 1.1,
+      "oilgascoal": 31.9,
+      "renewable": 65.4
+    }
+  },
+  {
+    "id": "DOM",
+    "name": "Dominican Republic",
+    "energyMix": {
+      "coal": 12.9,
+      "hydroelectric": 6.4,
+      "gas": 22,
+      "oil": 53.5,
+      "oilgascoal": 88.4,
+      "renewable": 5.3
+    }
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 50.7,
+      "gas": 12.7,
+      "oil": 34.5,
+      "oilgascoal": 47.2,
+      "renewable": 2.1
+    }
+  },
+  {
+    "id": "EGY",
+    "name": "Egypt, Arab Rep.",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 7.4,
+      "gas": 70.7,
+      "oil": 21,
+      "oilgascoal": 91.7,
+      "renewable": 0.9
+    }
+  },
+  {
+    "id": "SLV",
+    "name": "El Salvador",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 22.6,
+      "gas": 0,
+      "oil": 42.2,
+      "oilgascoal": 42.2,
+      "renewable": 35.2
+    }
+  },
+  {
+    "id": "ERI",
+    "name": "Eritrea",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 0,
+      "oil": 99.5,
+      "oilgascoal": 99.5,
+      "renewable": 0.5
+    }
+  },
+  {
+    "id": "EST",
+    "name": "Estonia",
+    "energyMix": {
+      "coal": 5.3,
+      "hydroelectric": 0.3,
+      "gas": 0.6,
+      "nuclear": 0,
+      "oil": 1.2,
+      "oilgascoal": 7.2,
+      "renewable": 14.2
+    }
+  },
+  {
+    "id": "ETH",
+    "name": "Ethiopia",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 92.7,
+      "gas": 0,
+      "oil": 0,
+      "oilgascoal": 0,
+      "renewable": 7.3
+    }
+  },
+  {
+    "id": "FIN",
+    "name": "Finland",
+    "energyMix": {
+      "coal": 8.3,
+      "hydroelectric": 24.4,
+      "gas": 7.6,
+      "nuclear": 33.9,
+      "oil": 0.3,
+      "oilgascoal": 16.2,
+      "renewable": 20.1
+    }
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "energyMix": {
+      "coal": 2.2,
+      "hydroelectric": 9.7,
+      "gas": 3.5,
+      "nuclear": 77.6,
+      "oil": 0.4,
+      "oilgascoal": 6.1,
+      "renewable": 6.2
+    }
+  },
+  {
+    "id": "GAB",
+    "name": "Gabon",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 43.2,
+      "gas": 46,
+      "oil": 10.2,
+      "oilgascoal": 56.3,
+      "renewable": 0.6
+    }
+  },
+  {
+    "id": "GEO",
+    "name": "Georgia",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 78,
+      "gas": 22,
+      "oil": 0,
+      "oilgascoal": 22,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "DEU",
+    "name": "Germany",
+    "energyMix": {
+      "coal": 44.3,
+      "hydroelectric": 3,
+      "gas": 9.8,
+      "nuclear": 14.3,
+      "oil": 1,
+      "oilgascoal": 55.1,
+      "renewable": 26.3
+    }
+  },
+  {
+    "id": "GHA",
+    "name": "Ghana",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 50.9,
+      "gas": 38.8,
+      "oil": 0,
+      "oilgascoal": 38.8,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "GIB",
+    "name": "Gibraltar",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 0,
+      "oil": 100,
+      "oilgascoal": 100,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "GRC",
+    "name": "Greece",
+    "energyMix": {
+      "coal": 42.7,
+      "hydroelectric": 11.8,
+      "gas": 17.5,
+      "nuclear": 0,
+      "oil": 10.9,
+      "oilgascoal": 71.1,
+      "renewable": 16.9
+    }
+  },
+  {
+    "id": "GTM",
+    "name": "Guatemala",
+    "energyMix": {
+      "coal": 21.4,
+      "hydroelectric": 35,
+      "gas": 0,
+      "oil": 18.2,
+      "oilgascoal": 39.6,
+      "renewable": 25.3
+    }
+  },
+  {
+    "id": "HTI",
+    "name": "Haiti",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 8,
+      "gas": 0,
+      "oil": 92,
+      "oilgascoal": 92,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "HND",
+    "name": "Honduras",
+    "energyMix": {
+      "coal": 1,
+      "hydroelectric": 26.1,
+      "gas": 0,
+      "oil": 56.7,
+      "oilgascoal": 57.7,
+      "renewable": 16.2
+    }
+  },
+  {
+    "id": "HKG",
+    "name": "Hong Kong SAR, China",
+    "energyMix": {
+      "coal": 65.4,
+      "hydroelectric": 0,
+      "gas": 33.8,
+      "oil": 0.5,
+      "oilgascoal": 99.7,
+      "renewable": 0.3
+    }
+  },
+  {
+    "id": "HUN",
+    "name": "Hungary",
+    "energyMix": {
+      "coal": 19.5,
+      "hydroelectric": 0.8,
+      "gas": 16.8,
+      "nuclear": 52.2,
+      "oil": 0.3,
+      "oilgascoal": 36.6,
+      "renewable": 9.8
+    }
+  },
+  {
+    "id": "ISL",
+    "name": "Iceland",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 73.3,
+      "gas": 0,
+      "nuclear": 0,
+      "oil": 0,
+      "oilgascoal": 0,
+      "renewable": 26.7
+    }
+  },
+  {
+    "id": "IND",
+    "name": "India",
+    "energyMix": {
+      "coal": 75.3,
+      "hydroelectric": 10,
+      "gas": 4.9,
+      "oil": 1.7,
+      "oilgascoal": 81.9,
+      "renewable": 5.4
+    }
+  },
+  {
+    "id": "IDN",
+    "name": "Indonesia",
+    "energyMix": {
+      "coal": 55.8,
+      "hydroelectric": 5.9,
+      "gas": 25.2,
+      "oil": 8.4,
+      "oilgascoal": 89.3,
+      "renewable": 4.8
+    }
+  },
+  {
+    "id": "IRN",
+    "name": "Iran, Islamic Rep.",
+    "energyMix": {
+      "coal": 0.2,
+      "hydroelectric": 5,
+      "gas": 79.3,
+      "oil": 14.4,
+      "oilgascoal": 93.9,
+      "renewable": 0.1
+    }
+  },
+  {
+    "id": "IRQ",
+    "name": "Iraq",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 3.7,
+      "gas": 24.4,
+      "oil": 25.7,
+      "oilgascoal": 50.1,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "IRL",
+    "name": "Ireland",
+    "energyMix": {
+      "coal": 17.3,
+      "hydroelectric": 2.9,
+      "gas": 44,
+      "nuclear": 0,
+      "oil": 1.4,
+      "oilgascoal": 62.8,
+      "renewable": 25.1
+    }
+  },
+  {
+    "id": "ISR",
+    "name": "Israel",
+    "energyMix": {
+      "coal": 45.4,
+      "hydroelectric": 0,
+      "gas": 51.6,
+      "nuclear": 0,
+      "oil": 0.7,
+      "oilgascoal": 97.7,
+      "renewable": 1.9
+    }
+  },
+  {
+    "id": "ITA",
+    "name": "Italy",
+    "energyMix": {
+      "coal": 16.1,
+      "hydroelectric": 16.2,
+      "gas": 39.4,
+      "nuclear": 0,
+      "oil": 4.8,
+      "oilgascoal": 60.2,
+      "renewable": 22.5
+    }
+  },
+  {
+    "id": "JAM",
+    "name": "Jamaica",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 3.1,
+      "gas": 0,
+      "oil": 89.7,
+      "oilgascoal": 89.7,
+      "renewable": 7.1
+    }
+  },
+  {
+    "id": "JPN",
+    "name": "Japan",
+    "energyMix": {
+      "coal": 33.2,
+      "hydroelectric": 8.2,
+      "gas": 39.6,
+      "nuclear": 0.9,
+      "oil": 7.5,
+      "oilgascoal": 80.3,
+      "renewable": 7.8
+    }
+  },
+  {
+    "id": "JOR",
+    "name": "Jordan",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0.3,
+      "gas": 48.4,
+      "oil": 50.6,
+      "oilgascoal": 99,
+      "renewable": 0.7
+    }
+  },
+  {
+    "id": "KAZ",
+    "name": "Kazakhstan",
+    "energyMix": {
+      "coal": 71.6,
+      "hydroelectric": 8.7,
+      "gas": 18.4,
+      "oil": 1.2,
+      "oilgascoal": 91.1,
+      "renewable": 0.2
+    }
+  },
+  {
+    "id": "KEN",
+    "name": "Kenya",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 39.2,
+      "gas": 0,
+      "oil": 12.5,
+      "oilgascoal": 12.5,
+      "renewable": 48.3
+    }
+  },
+  {
+    "id": "PRK",
+    "name": "Korea, Dem. People’s Rep.",
+    "energyMix": {
+      "coal": 21.3,
+      "hydroelectric": 72.8,
+      "gas": 0,
+      "oil": 5.9,
+      "oilgascoal": 27.2,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "KOR",
+    "name": "Korea, Rep.",
+    "energyMix": {
+      "coal": 43.1,
+      "hydroelectric": 0.4,
+      "gas": 22.4,
+      "nuclear": 30,
+      "oil": 2.3,
+      "oilgascoal": 67.7,
+      "renewable": 1.5
+    }
+  },
+  {
+    "id": "XKX",
+    "name": "Kosovo",
+    "energyMix": {
+      "coal": 97.5,
+      "hydroelectric": 2.3,
+      "gas": 0,
+      "oil": 0.2,
+      "oilgascoal": 97.7,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "KWT",
+    "name": "Kuwait",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 36.4,
+      "oil": 63.6,
+      "oilgascoal": 100,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "KGZ",
+    "name": "Kyrgyz Republic",
+    "energyMix": {
+      "coal": 13.2,
+      "hydroelectric": 85.2,
+      "gas": 1.3,
+      "oil": 0.3,
+      "oilgascoal": 14.8,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "LVA",
+    "name": "Latvia",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 33.6,
+      "gas": 49.8,
+      "oil": 0,
+      "oilgascoal": 49.8,
+      "renewable": 16.6
+    }
+  },
+  {
+    "id": "LBN",
+    "name": "Lebanon",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 2.6,
+      "gas": 0,
+      "oil": 97.4,
+      "oilgascoal": 97.4,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "LBY",
+    "name": "Libya",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 53.7,
+      "oil": 46.3,
+      "oilgascoal": 100,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "LTU",
+    "name": "Lithuania",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 8.2,
+      "gas": 46.5,
+      "oil": 6.5,
+      "oilgascoal": 52.9,
+      "renewable": 31.2
+    }
+  },
+  {
+    "id": "LUX",
+    "name": "Luxembourg",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 7.4,
+      "gas": 62.7,
+      "nuclear": 0,
+      "oil": 0,
+      "oilgascoal": 62.7,
+      "renewable": 24.9
+    }
+  },
+  {
+    "id": "MKD",
+    "name": "Macedonia, FYR",
+    "energyMix": {
+      "coal": 58.4,
+      "hydroelectric": 33,
+      "gas": 3.2,
+      "oil": 2.5,
+      "oilgascoal": 64.1,
+      "renewable": 2.9
+    }
+  },
+  {
+    "id": "MYS",
+    "name": "Malaysia",
+    "energyMix": {
+      "coal": 42.3,
+      "hydroelectric": 9.3,
+      "gas": 46.6,
+      "oil": 1.2,
+      "oilgascoal": 90,
+      "renewable": 0.7
+    }
+  },
+  {
+    "id": "MLT",
+    "name": "Malta",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 0,
+      "oil": 92.3,
+      "oilgascoal": 92.3,
+      "renewable": 7.7
+    }
+  },
+  {
+    "id": "MUS",
+    "name": "Mauritius",
+    "energyMix": {
+      "coal": 39.4,
+      "hydroelectric": 4.1,
+      "gas": 0,
+      "oil": 37.8,
+      "oilgascoal": 77.3,
+      "renewable": 18.7
+    }
+  },
+  {
+    "id": "MEX",
+    "name": "Mexico",
+    "energyMix": {
+      "coal": 10.9,
+      "hydroelectric": 9.9,
+      "gas": 59.9,
+      "nuclear": 3.7,
+      "oil": 10.1,
+      "oilgascoal": 80.9,
+      "renewable": 5.5
+    }
+  },
+  {
+    "id": "MDA",
+    "name": "Moldova",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 5.1,
+      "gas": 94.5,
+      "oil": 0.1,
+      "oilgascoal": 94.6,
+      "renewable": 0.3
+    }
+  },
+  {
+    "id": "MNG",
+    "name": "Mongolia",
+    "energyMix": {
+      "coal": 92.7,
+      "hydroelectric": 0,
+      "gas": 0,
+      "oil": 4.2,
+      "oilgascoal": 96.9,
+      "renewable": 3.1
+    }
+  },
+  {
+    "id": "MNE",
+    "name": "Montenegro",
+    "energyMix": {
+      "coal": 50.3,
+      "hydroelectric": 49.7,
+      "gas": 0,
+      "oil": 0,
+      "oilgascoal": 50.3,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "MAR",
+    "name": "Morocco",
+    "energyMix": {
+      "coal": 55.5,
+      "hydroelectric": 6.1,
+      "gas": 18.8,
+      "oil": 7.2,
+      "oilgascoal": 81.5,
+      "renewable": 8.2
+    }
+  },
+  {
+    "id": "MOZ",
+    "name": "Mozambique",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 86.4,
+      "gas": 12.8,
+      "oil": 0.8,
+      "oilgascoal": 13.6,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "MMR",
+    "name": "Myanmar",
+    "energyMix": {
+      "coal": 1.8,
+      "hydroelectric": 58.9,
+      "gas": 39,
+      "oil": 0.3,
+      "oilgascoal": 41.1,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "NAM",
+    "name": "Namibia",
+    "energyMix": {
+      "coal": 0.5,
+      "hydroelectric": 97.8,
+      "gas": 0,
+      "oil": 1.8,
+      "oilgascoal": 2.2,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "NPL",
+    "name": "Nepal",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 99.8,
+      "gas": 0,
+      "oil": 0,
+      "oilgascoal": 0,
+      "renewable": 0.2
+    }
+  },
+  {
+    "id": "NLD",
+    "name": "Netherlands",
+    "energyMix": {
+      "coal": 38.7,
+      "hydroelectric": 0.1,
+      "gas": 42.3,
+      "nuclear": 3.5,
+      "oil": 1.3,
+      "oilgascoal": 82.2,
+      "renewable": 12.4
+    }
+  },
+  {
+    "id": "NZL",
+    "name": "New Zealand",
+    "energyMix": {
+      "coal": 4.3,
+      "hydroelectric": 55.5,
+      "gas": 15.5,
+      "nuclear": 0,
+      "oil": 0,
+      "oilgascoal": 19.8,
+      "renewable": 24.6
+    }
+  },
+  {
+    "id": "NIC",
+    "name": "Nicaragua",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 6.4,
+      "gas": 0,
+      "oil": 49.9,
+      "oilgascoal": 49.9,
+      "renewable": 43.6
+    }
+  },
+  {
+    "id": "NER",
+    "name": "Niger",
+    "energyMix": {
+      "coal": 41.6,
+      "hydroelectric": 0,
+      "gas": 0,
+      "oil": 57.6,
+      "oilgascoal": 99.2,
+      "renewable": 0.8
+    }
+  },
+  {
+    "id": "NGA",
+    "name": "Nigeria",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 18.2,
+      "gas": 81.8,
+      "oil": 0,
+      "oilgascoal": 81.8,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "NOR",
+    "name": "Norway",
+    "energyMix": {
+      "coal": 0.1,
+      "hydroelectric": 95.8,
+      "gas": 1.8,
+      "nuclear": 0,
+      "oil": 0,
+      "oilgascoal": 1.9,
+      "renewable": 1.9
+    }
+  },
+  {
+    "id": "OMN",
+    "name": "Oman",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 97.4,
+      "oil": 2.6,
+      "oilgascoal": 100,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "PAK",
+    "name": "Pakistan",
+    "energyMix": {
+      "coal": 0.1,
+      "hydroelectric": 30.7,
+      "gas": 25.7,
+      "oil": 37.2,
+      "oilgascoal": 63.1,
+      "renewable": 0.8
+    }
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "energyMix": {
+      "coal": 6.9,
+      "hydroelectric": 60.8,
+      "gas": 0,
+      "oil": 27.8,
+      "oilgascoal": 34.7,
+      "renewable": 4.6
+    }
+  },
+  {
+    "id": "PRY",
+    "name": "Paraguay",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 100,
+      "gas": 0,
+      "oil": 0,
+      "oilgascoal": 0,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "PER",
+    "name": "Peru",
+    "energyMix": {
+      "coal": 0.8,
+      "hydroelectric": 49.1,
+      "gas": 45,
+      "oil": 1.4,
+      "oilgascoal": 47.3,
+      "renewable": 3.6
+    }
+  },
+  {
+    "id": "PHL",
+    "name": "Philippines",
+    "energyMix": {
+      "coal": 44.5,
+      "hydroelectric": 10.5,
+      "gas": 22.9,
+      "oil": 7.1,
+      "oilgascoal": 74.6,
+      "renewable": 14.9
+    }
+  },
+  {
+    "id": "POL",
+    "name": "Poland",
+    "energyMix": {
+      "coal": 80.9,
+      "hydroelectric": 1.1,
+      "gas": 3.9,
+      "nuclear": 0,
+      "oil": 1.3,
+      "oilgascoal": 86.1,
+      "renewable": 12.7
+    }
+  },
+  {
+    "id": "PRT",
+    "name": "Portugal",
+    "energyMix": {
+      "coal": 28.7,
+      "hydroelectric": 16.9,
+      "gas": 20.6,
+      "nuclear": 0,
+      "oil": 2.6,
+      "oilgascoal": 51.9,
+      "renewable": 30.6
+    }
+  },
+  {
+    "id": "QAT",
+    "name": "Qatar",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 100,
+      "oil": 0,
+      "oilgascoal": 100,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "ROU",
+    "name": "Romania",
+    "energyMix": {
+      "coal": 27.6,
+      "hydroelectric": 25.2,
+      "gas": 14.2,
+      "oil": 0.7,
+      "oilgascoal": 42.6,
+      "renewable": 14.5
+    }
+  },
+  {
+    "id": "RUS",
+    "name": "Russian Federation",
+    "energyMix": {
+      "coal": 14.8,
+      "hydroelectric": 15.8,
+      "gas": 49.7,
+      "oil": 0.9,
+      "oilgascoal": 65.5,
+      "renewable": 0.1
+    }
+  },
+  {
+    "id": "SAU",
+    "name": "Saudi Arabia",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 55.8,
+      "oil": 20.4,
+      "oilgascoal": 76.2,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 8.6,
+      "gas": 4.2,
+      "oil": 83.6,
+      "oilgascoal": 87.8,
+      "renewable": 1.8
+    }
+  },
+  {
+    "id": "SRB",
+    "name": "Serbia",
+    "energyMix": {
+      "coal": 72.4,
+      "hydroelectric": 26.8,
+      "gas": 0.6,
+      "oil": 0.1,
+      "oilgascoal": 73.1,
+      "renewable": 0.1
+    }
+  },
+  {
+    "id": "SGP",
+    "name": "Singapore",
+    "energyMix": {
+      "coal": 1.2,
+      "hydroelectric": 0,
+      "gas": 95,
+      "oil": 0.7,
+      "oilgascoal": 96.9,
+      "renewable": 1.8
+    }
+  },
+  {
+    "id": "SVK",
+    "name": "Slovak Republic",
+    "energyMix": {
+      "coal": 12.5,
+      "hydroelectric": 14.5,
+      "gas": 6,
+      "nuclear": 56.9,
+      "oil": 1.4,
+      "oilgascoal": 20,
+      "renewable": 8.2
+    }
+  },
+  {
+    "id": "SVN",
+    "name": "Slovenia",
+    "energyMix": {
+      "coal": 29.6,
+      "hydroelectric": 25.7,
+      "gas": 2.7,
+      "nuclear": 38.1,
+      "oil": 0.1,
+      "oilgascoal": 32.4,
+      "renewable": 3.7
+    }
+  },
+  {
+    "id": "ZAF",
+    "name": "South Africa",
+    "energyMix": {
+      "coal": 92.7,
+      "hydroelectric": 0.3,
+      "gas": 0,
+      "oil": 0.1,
+      "oilgascoal": 92.8,
+      "renewable": 1.9
+    }
+  },
+  {
+    "id": "SSD",
+    "name": "South Sudan",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 0,
+      "oil": 99.4,
+      "oilgascoal": 99.4,
+      "renewable": 0.6
+    }
+  },
+  {
+    "id": "ESP",
+    "name": "Spain",
+    "energyMix": {
+      "coal": 19,
+      "hydroelectric": 10.1,
+      "gas": 18.9,
+      "nuclear": 20.6,
+      "oil": 6.2,
+      "oilgascoal": 44.1,
+      "renewable": 24.8
+    }
+  },
+  {
+    "id": "LKA",
+    "name": "Sri Lanka",
+    "energyMix": {
+      "coal": 33.7,
+      "hydroelectric": 45.3,
+      "gas": 0,
+      "oil": 17.8,
+      "oilgascoal": 51.5,
+      "renewable": 3.2
+    }
+  },
+  {
+    "id": "SDN",
+    "name": "Sudan",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 64.5,
+      "gas": 0,
+      "oil": 22.6,
+      "oilgascoal": 22.6,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "SUR",
+    "name": "Suriname",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 60.1,
+      "gas": 0,
+      "oil": 39.9,
+      "oilgascoal": 39.9,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "SWE",
+    "name": "Sweden",
+    "energyMix": {
+      "coal": 0.7,
+      "hydroelectric": 46.5,
+      "gas": 0.3,
+      "nuclear": 34.7,
+      "oil": 0.2,
+      "oilgascoal": 1.1,
+      "renewable": 16.8
+    }
+  },
+  {
+    "id": "CHE",
+    "name": "Switzerland",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 57.9,
+      "gas": 1,
+      "nuclear": 34.9,
+      "oil": 0.1,
+      "oilgascoal": 1.1,
+      "renewable": 4.3
+    }
+  },
+  {
+    "id": "SYR",
+    "name": "Syrian Arab Republic",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 2.3,
+      "gas": 68.6,
+      "oil": 29.1,
+      "oilgascoal": 97.7,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "TJK",
+    "name": "Tajikistan",
+    "energyMix": {
+      "coal": 1.5,
+      "hydroelectric": 98.5,
+      "gas": 0,
+      "oil": 0,
+      "oilgascoal": 1.5,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "TZA",
+    "name": "Tanzania",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 33.5,
+      "gas": 43.9,
+      "oil": 21.9,
+      "oilgascoal": 65.8,
+      "renewable": 0.7
+    }
+  },
+  {
+    "id": "THA",
+    "name": "Thailand",
+    "energyMix": {
+      "coal": 19.5,
+      "hydroelectric": 2.7,
+      "gas": 71.4,
+      "oil": 0.6,
+      "oilgascoal": 91.5,
+      "renewable": 5.9
+    }
+  },
+  {
+    "id": "TGO",
+    "name": "Togo",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 69.1,
+      "gas": 0,
+      "oil": 24.7,
+      "oilgascoal": 24.7,
+      "renewable": 6.2
+    }
+  },
+  {
+    "id": "TTO",
+    "name": "Trinidad and Tobago",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 99.8,
+      "oil": 0.2,
+      "oilgascoal": 100,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "TUN",
+    "name": "Tunisia",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0.4,
+      "gas": 91.4,
+      "oil": 4.6,
+      "oilgascoal": 96.1,
+      "renewable": 2.5
+    }
+  },
+  {
+    "id": "TUR",
+    "name": "Turkey",
+    "energyMix": {
+      "coal": 29.1,
+      "hydroelectric": 25.6,
+      "gas": 37.9,
+      "nuclear": 0,
+      "oil": 0.8,
+      "oilgascoal": 67.8,
+      "renewable": 6.3
+    }
+  },
+  {
+    "id": "TKM",
+    "name": "Turkmenistan",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 100,
+      "oil": 0,
+      "oilgascoal": 100,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "UKR",
+    "name": "Ukraine",
+    "energyMix": {
+      "coal": 34.6,
+      "hydroelectric": 3.3,
+      "gas": 6.2,
+      "oil": 0.5,
+      "oilgascoal": 41.3,
+      "renewable": 1.1
+    }
+  },
+  {
+    "id": "ARE",
+    "name": "United Arab Emirates",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 98.5,
+      "oil": 1.2,
+      "oilgascoal": 99.8,
+      "renewable": 0.2
+    }
+  },
+  {
+    "id": "GBR",
+    "name": "United Kingdom",
+    "energyMix": {
+      "coal": 22.8,
+      "hydroelectric": 1.9,
+      "gas": 29.7,
+      "nuclear": 20.9,
+      "oil": 0.6,
+      "oilgascoal": 53.2,
+      "renewable": 23
+    }
+  },
+  {
+    "id": "USA",
+    "name": "United States",
+    "energyMix": {
+      "coal": 34.2,
+      "hydroelectric": 5.8,
+      "gas": 31.9,
+      "nuclear": 19.3,
+      "oil": 0.9,
+      "oilgascoal": 67.1,
+      "renewable": 7.4
+    }
+  },
+  {
+    "id": "URY",
+    "name": "Uruguay",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 60.2,
+      "gas": 0,
+      "oil": 11.4,
+      "oilgascoal": 11.4,
+      "renewable": 28.4
+    }
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistan",
+    "energyMix": {
+      "coal": 4.1,
+      "hydroelectric": 20.7,
+      "gas": 75,
+      "oil": 0.3,
+      "oilgascoal": 79.3,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "VEN",
+    "name": "Venezuela, RB",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 63.7,
+      "gas": 19.4,
+      "oil": 16.9,
+      "oilgascoal": 36.3,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "VNM",
+    "name": "Vietnam",
+    "energyMix": {
+      "coal": 29.6,
+      "hydroelectric": 36.6,
+      "gas": 33.2,
+      "oil": 0.5,
+      "oilgascoal": 63.3,
+      "renewable": 0.1
+    }
+  },
+  {
+    "id": "YEM",
+    "name": "Yemen, Rep.",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 0,
+      "gas": 39.8,
+      "oil": 60.2,
+      "oilgascoal": 100,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "ZMB",
+    "name": "Zambia",
+    "energyMix": {
+      "coal": 0,
+      "hydroelectric": 97,
+      "gas": 0,
+      "oil": 3,
+      "oilgascoal": 3,
+      "renewable": 0
+    }
+  },
+  {
+    "id": "ZWE",
+    "name": "Zimbabwe",
+    "energyMix": {
+      "coal": 46.8,
+      "hydroelectric": 51.4,
+      "gas": 0,
+      "oil": 0.5,
+      "oilgascoal": 47.3,
+      "renewable": 1.3
+    }
+  }
+]
