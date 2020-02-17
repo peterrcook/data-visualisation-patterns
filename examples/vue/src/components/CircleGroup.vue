@@ -3,17 +3,23 @@
     class="country"
     :transform="`translate(${tweenD.x},${tweenD.y})`"
     :style="{opacity: tweenD.opacity}"
+    v-on:mouseover="handleMouseenter"
+    v-on:mouseout="handleMouseout"
   >
+    <circle class="pick-area" :r="d.pickRadius" />
     <circle class="oilgascoal" :r="tweenD.oilGasCoalRadius" />
     <circle class="renewable" :r="tweenD.renewableRadius" />
     <circle class="hydroelectric" :r="tweenD.hydroelectricRadius" />
     <circle class="nuclear" :r="tweenD.nuclearRadius" />
     <text class="label" :y="d.labelYOffset">{{d.label}}</text>
+    <circle class="popup-anchor" :cy="d.popupOffset" r="1" ref="popupAnchor" />
   </g>
 </template>
 
 <script>
 import { tween, easing, chain, delay } from 'popmotion';
+
+import store from '../store';
 
 export default {
   name: 'CircleGroup',
@@ -59,6 +65,15 @@ export default {
       ).start(v => {
         this.tweenD = v;
       });
+    },
+    handleMouseenter: function() {
+      store.setHoveredCountry({
+        d: this.d,
+        el: this.$refs.popupAnchor
+      });
+    },
+    handleMouseout: () => {
+      store.setHoveredCountry(null);
     }
   }
 }
