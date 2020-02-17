@@ -2,7 +2,7 @@
   <div id="chart-wrapper">
     <svg :width="1200" height="1150">
       <g id="chart">
-        <CircleGroup v-for="d in layout" :key="d.datum.id" :d="d" />
+        <CircleGroup v-for="(d, i) in layout" :key="d.datum.id" :d="d" :delay="i * transitionDelay" />
       </g>
     </svg>
   </div>
@@ -26,7 +26,8 @@ export default {
     return {
       storeState: store.state,
       width: 1200,
-      numColumns: 14
+      numColumns: 14,
+      transitionDelay: 8
     }
   },
   computed: {
@@ -47,7 +48,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>

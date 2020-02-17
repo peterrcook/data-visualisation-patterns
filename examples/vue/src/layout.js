@@ -12,10 +12,10 @@ function getLayout(data, args) {
         ret.x = col * cellWidth + 0.5 * cellWidth;
         ret.y = row * cellHeight + 0.5 * cellHeight;
 
-        ret.oilGasCoalRadius = args.radiusScale(d.energyMix.oilgascoal);
-        ret.renewableRadius = args.radiusScale(d.energyMix.renewable);
-        ret.hydroelectricRadius = args.radiusScale(d.energyMix.hydroelectric);
-        ret.nuclearRadius = args.radiusScale(d.energyMix.nuclear);
+        ret.oilGasCoalRadius = args.radiusScale(d.energyMix.oilgascoal) || 0;
+        ret.renewableRadius = args.radiusScale(d.energyMix.renewable) || 0;
+        ret.hydroelectricRadius = args.radiusScale(d.energyMix.hydroelectric) || 0;
+        ret.nuclearRadius = args.radiusScale(d.energyMix.nuclear) || 0;
 
         ret.labelYOffset = cellHeight * 0.45;
         ret.label = d.id;
