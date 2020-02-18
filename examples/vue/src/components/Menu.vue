@@ -2,7 +2,7 @@
   <div class="menu">
     <div>Sort by:</div>
     <div class="items">
-      <div v-for="item in menuItems" :key="item.id" class="item" v-on:click="handleClick(item)" >
+      <div v-for="item in menuItems" :key="item.id" :class="{item, selected: storeState.selectedSortBy === item.id}" v-on:click="handleClick(item)" >
         <svg width="18" height="18">
           <circle :class="item.id" cx="9" cy="9" r="8" />
         </svg>
