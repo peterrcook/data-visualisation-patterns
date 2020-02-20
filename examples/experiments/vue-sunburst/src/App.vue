@@ -16,4 +16,12 @@ export default {
 </script>
 
 <style>
+body {
+  background-color: #036;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 800px;
+}
 </style>

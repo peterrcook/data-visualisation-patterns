@@ -2,11 +2,15 @@ import { nest as d3_nest } from 'd3-collection';
 import { hierarchy as d3_hierarchy } from "d3-hierarchy";
 import { sum as d3_sum } from 'd3-array';
 
+function radToDeg(a) {
+    return 180 * a / Math.PI;
+}
+
 function getRoot(data, groupBy, sumBy) {
     let nest = d3_nest();
 
     groupBy.forEach(g => nest.key(d => d[g]));
-    nest.rollup(d => d3_sum(d, d => +d[sumBy]));
+    nest.rollup(d => d3_sum(d, d => sumBy ? +d[sumBy] : 1));
     
     let root = {
         name: 'root',
@@ -29,4 +33,4 @@ function getRoot(data, groupBy, sumBy) {
     return root;
 }
 
-export { getRoot };
+export { radToDeg, getRoot };

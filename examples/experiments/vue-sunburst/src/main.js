@@ -9,8 +9,8 @@ new Vue({
     render: h => h(App),
 }).$mount('#app')
 
-csv('./films.csv')
+csv('./comic-relief-360-giving.csv')
     .then(data => {
-        console.log(data);
+        // console.log(data);
         store.setData(data);
     });
