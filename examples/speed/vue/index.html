@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Vue speed test</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <button onClick="toggleRunning()">Stop/Start</button>
+    <svg id="app" width="1000" height="800">
+      <circle v-for="d in data" :cx="d.x" :cy="d.y" :r="d.r" style="fill: #ccc;" />
+    </svg>
+  </div>
+    
+  <script src="js/vue.js"></script>
+  <script src="js/stats.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
