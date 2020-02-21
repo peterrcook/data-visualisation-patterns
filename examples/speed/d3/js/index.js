@@ -1,24 +1,38 @@
+var stats = new Stats();
+stats.showPanel(0);
+document.body.appendChild( stats.dom );
+
 var running = true;
+var numItems = 1500;
+var w = 1000;
+var h = 800;
+var maxR = 10;
+var data = initData();
 
 function toggleRunning() {
     running = !running;
 }
 
-function getData(numPoints, w, h, maxR) {
-    var points = [];
-    for(var i=0; i<numPoints; i++) {
-        points.push({
-            id: 0,
+function initData() {
+    var data = [];
+    for(var i=0; i<numItems; i++) {
+        data.push({ id: 0 });
+    }
+    return data;
+}
+
+function updateData() {
+    for(var i=0; i<numItems; i++) {
+        data[i] = {
             x: Math.random() * w,
             y: Math.random() * h,
             r: Math.random() * maxR
-        });
+        }
     }
-    return points;
 }
 
 function update() {
-    var data = getData(5000, 1000, 800, 10);
+    updateData();
 
     d3.select('svg')
         .selectAll('circle')
@@ -37,7 +51,9 @@ function update() {
 }
 
 function nextFrame() {
+    stats.begin();
     if(running) update();
+    stats.end();
     window.requestAnimationFrame(nextFrame);
 }
 
