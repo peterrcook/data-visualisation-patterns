@@ -10,7 +10,7 @@
   "dependencies": {
     "@flourish/popup": "^2.1.2",
     "core-js": "^3.6.4",
-    "d3": "^5.15.0",
+    "d3": "^7.6.1",
     "popmotion": "^8.7.1",
     "vue": "^2.6.11"
   },
